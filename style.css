@@ -1,19 +1,23 @@
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-self: center;
-  background-image: url(bck1.jpg);
-  background-position: 50% 0px;
-  min-height: 100vh!important;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 20px;
-  
 
-}
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-self: center;
+            background-image: url(bck1.jpg);
+            background-position: 50% 0px;
+            min-height: 100vh!important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-bottom: 20px;
+            width:100%;
+            margin:0;
+            padding:0;
+            
+
+        }
 .payment{
   display: flex;
   flex-direction: column;
@@ -21,12 +25,12 @@
   align-items: center;
   align-self: center;
   text-align: center;
-  width: 600px;
+  width: 90%;
 }
 .row1{
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 80%;
   align-self: center;
   justify-content: center;
 
@@ -35,15 +39,15 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 95%;
+  width: 98%;
   align-self: center;
 
 }
 .pay1,.pay2,.pay3, .pay4,.pay5,.pay6,.pay7{
 
   border-radius: 50%;
-  width: 106px;
-  height:104px;
+  width: 100px;
+  height:90px;
   font-size: 15px;
   background-color: white;
   border-color: rgb(212, 0, 255);
@@ -64,16 +68,16 @@ label{
 }
 .label{
 text-align: center;
-font-size: 32px;
+font-size: 20px;
 color: rgb(10, 248, 10);
-width: 500px;
+width: 80%;
 align-self: center;
 column-gap: 0px;
 }
 h1{
 font-style: italic;
 background-color: rgba(196, 193, 193, 0.103);
-width: 380px;
+width: 75%;
 align-self: center;
 border-radius: 10px;
 font-size: 20px;
@@ -82,11 +86,11 @@ color: white;
 }
 .p1{
 background-color: rgba(196, 193, 193, 0.103);
-width: 500px;
+width: 90%;
 align-self: center;
 height: 80px;
 align-content: center;
-font-size: 24px;
+font-size: 20px;
 border-radius: 10px;
 color: white;
 
@@ -101,7 +105,7 @@ padding-bottom: 20px;
 border-radius: 10px;
 align-self: center;
 margin-top: 30px;
-width: 500px;
+width: 90%;
 color: white;
 outline: 0;
 
@@ -142,7 +146,7 @@ border-radius: 10px;
 flex-direction: column;
 display: flex;
 align-self: center;
-width: 500px;
+width: 90%;
 }
 .h1{
 align-self: center;
@@ -157,13 +161,13 @@ align-items: center;
 text-align: center;
 margin-top: 30px;
 background-color: rgba(196, 193, 193, 0.103);
-
+ margin-bottom:10%;
 padding-bottom: 20px;
 border-radius: 10px;
 flex-direction: column;
 display: flex;
 align-self: center;
-width: 500px;
+width: 90%;
 }
 .input3{
 margin-top: 10px;
@@ -177,7 +181,7 @@ font-weight: bold;
 .p4{
 color: red;
 font-weight: bold;
-font-size: 18px;
+font-size: 14px;
 padding-top: 20px;
 }
 
